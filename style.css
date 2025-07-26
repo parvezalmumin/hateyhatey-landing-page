@@ -13,14 +13,14 @@
   }
 
   .logo img {
-      width: 150px;
+      width: 100px;
       height: auto;
   }
 
   .navbar ul {
       list-style: none;
       display: flex;
-      gap: 55px;
+      gap: 90px;
   }
 
   .navbar ul li a {
@@ -32,4 +32,23 @@
 
   .navbar ul li a:hover {
       color: #ff9800;
+  }
+
+  .banner {
+      background-image: url('Images/cargo-van-driving-on-highway-600nw-2476921679.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .banner-content {
+      color: rgb(32, 32, 30);
+      font-size: larger;
+      font-weight: bold;
+      backdrop-filter: brightness(0.7);
   }
