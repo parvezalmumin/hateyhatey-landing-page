@@ -345,3 +345,69 @@ form button:hover {
     font-size: 15px;
   }
 }
+
+
+/* Rider Registration Section */
+.rider-registration-section {
+  background: url('Images/delivery-rider.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rider-form-container {
+  background-color: rgba(0, 0, 0, 0.65); /* dark overlay for readability */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.rider-form-container h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.rider-registration-form input,
+.rider-registration-form select,
+.rider-registration-form button {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.rider-registration-form input,
+.rider-registration-form select {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.rider-registration-form button {
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.rider-registration-form button:hover {
+  background-color: #e65c00;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .rider-form-container {
+    padding: 25px;
+  }
+
+  .rider-form-container h2 {
+    font-size: 26px;
+  }
+}
