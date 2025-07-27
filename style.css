@@ -157,3 +157,27 @@
 .service-item:hover .overlay {
   background: rgba(0, 0, 0, 0.7);
 }
+/*Choose Section*/
+ .choose {
+      background-image: url('Images/a.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .choose-content {
+      color: rgb(224, 24, 24);
+      font-size: 25px;
+      font-weight: bold;
+ /*      backdrop-filter: brightness(0.7);*/
+  }
+
+.choose-content h1  {
+    color: #fff;
+    font-weight: bolder;
+}
