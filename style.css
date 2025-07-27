@@ -250,3 +250,98 @@
 .review-button:hover {
   background-color: #813760;
 }
+
+
+/* DELIVERY FORM SECTION */
+.delivery-form-section {
+  background-image: url('Images/delivery-form.jpg'); /* replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Dark overlay on background */
+.delivery-form-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+/* Container for form content */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.form-container h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form Inputs and Select */
+form input,
+form select {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  appearance: none; 
+}
+
+/* Submit Button */
+form button {
+  width: 100%;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e08800;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 30px 20px;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+  }
+
+  form input,
+  form select {
+    font-size: 15px;
+  }
+
+  form button {
+    font-size: 15px;
+  }
+}
