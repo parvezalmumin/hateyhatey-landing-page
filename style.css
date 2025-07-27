@@ -500,3 +500,97 @@ form button:hover {
     margin-bottom: 20px;
   }
 }
+
+/* Contact + Footer Section */
+.contact-footer-section {
+  background-color: #2c3e50;
+  color: #f1f1f1;
+  padding: 60px 20px;
+}
+
+.contact-footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ff9800;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1); /* makes icons white */
+  transition: filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+  filter: brightness(0) invert(0.6); /* slight color on hover */
+}
+
+.footer-info {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.personal-tagline {
+  font-style: italic;
+  color: #ff9800;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info,
+  .footer-info {
+    min-width: auto;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+
