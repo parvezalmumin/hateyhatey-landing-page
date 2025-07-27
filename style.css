@@ -411,3 +411,92 @@ form button:hover {
     font-size: 26px;
   }
 }
+
+/* About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  color: #333;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .about-section h2 {
+    font-size: 28px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+  }
+}
+/* Meet The Owner Section */
+.owner-section {
+  background-color: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.owner-container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.owner-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.owner-description {
+  flex: 1;
+}
+
+.owner-description h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.owner-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .owner-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .owner-photo {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+}
